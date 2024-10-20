@@ -1,0 +1,33 @@
+
+body{
+    background-color: rgb(189, 140, 236);
+    
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #e872e8;
+    text-align: center;}
+
+
+
+    h1{
+        color: black;
+        font-size: 5vw;
+        
+    }
+/* Media query for larger screens */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 48px; 
+    }
+}
+
+/* Media query for small screens */
+@media (max-width: 300px) {
+    h1 {
+        font-size: 24px; 
+    }
+}
